@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    {% block title %}
+    <title>nazeera</title>
+    {% endblock %}
+    
+    
+    
+    <link rel="stylesheet" href="{% static 'css/mdb.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/c1.css' %}">
+    
+
+</head>
+{% block body_block %}
+<body style="background-image: url('{% static 'images/nazu.jpg' %}');">
+    
+    <u><h1 style="color: blue;">i love you mom </h1></u>
+   
+
+
+
+
+    
+{% endblock %}
+<h1><img src="{% static 'images/nazu.jpg' %}" alt="" srcset=""> </h1>
+
+
+    <script src="{% static 'js/mdb.min.js' %}"></script>
+
+   
+   
+    
+</body>
+</html>
